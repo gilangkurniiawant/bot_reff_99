@@ -10,8 +10,8 @@ User-Agent: okhttp/3.10.0";
 $var = fopen("../modul/cookie.txt", "w");
 fwrite($var, "");
 fclose($var);
-echo "|ICCTOROBOT |"
-echo"\nKode Reff Jumlahnya 6 Digit"
+echo "|ICCTOROBOT |";
+echo"\nKode Reff Jumlahnya 6 Digit";
 echo "\n\nMasukanKode Reff : "
 $reff = trim(fgets(STDIN));
 
