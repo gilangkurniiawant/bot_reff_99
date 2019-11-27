@@ -12,7 +12,7 @@ fwrite($var, "");
 fclose($var);
 echo "|ICCTOROBOT |";
 echo"\nKode Reff Jumlahnya 6 Digit";
-echo "\n\nMasukanKode Reff : "
+echo "\n\nMasukanKode Reff : ";
 $reff = trim(fgets(STDIN));
 
 
